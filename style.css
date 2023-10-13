@@ -1,0 +1,22 @@
+body {
+  background: rgb(143, 100, 43);
+}
+.kelas {
+  color: antiquewhite;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 60px;
+  align-items: center;
+  grid-gap: 10px;
+}
+img {
+  object-fit: cover;
+}
+.grid > article {
+  box-shadow: 5px 0 5px 0px black;
+  border-radius: 10px;
+  text-align: center;
+  background: rgb(252, 250, 250);
+}
